@@ -1,0 +1,161 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Developer CV
+% LaTeX Template
+% Version 1.0 (28/1/19)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Jan Vorisek (jan@vorisek.me)
+% Based on a template by Jan Küster (info@jankuester.com)
+% Modified for LaTeX Templates by Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% The MIT License (see included LICENSE file)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[9pt]{developercv} % Default font size, values from 8-12pt are recommended
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.45\textwidth} % 45% of the page width for name
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% If your name is very short, use just one of the lines below
+	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Quang}}}}} % First name
+	
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{M.Nguyen}}}}} % Last name
+	
+	\vspace{6pt}
+	
+	{\huge Software Development} % Career or current job title
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the first row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{MapMarker}{12}{Sweden,Skåne}\\
+	\icon{Phone}{12}{+46 76-931 05 35}\\
+\end{minipage}
+\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
+	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
+	\icon{Github}{12}{\href{https://github.com/bepp-boop}{github.com/bepp-boop}}\\
+	\icon{At}{12}{\href{mailto:quangteoqs15@gmail.com}{quangteoqs15@}}\\	
+\end{minipage}
+
+\vspace{0.5cm}
+
+%----------------------------------------------------------------------------------------
+%	INTRODUCTION, SKILLS AND TECHNOLOGIES
+%----------------------------------------------------------------------------------------
+
+\cvsect{Who Am I?}
+
+\begin{minipage}[t]{0.4\textwidth} % 40% of the page width for the introduction text
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	Bachelor of Science student in Software development, currently in the second year.Looking for opportunity work in a professional environment to improve my programming skill in real world experiences. Comfortable in a working in a group as I enjoy learning from people. % Dummy text
+\end{minipage}
+\hfill % Whitespace between
+\begin{minipage}[t]{0.5\textwidth} % 50% of the page for the skills bar chart
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	\begin{barchart}{5.5}
+		\baritem{Java}{70}
+		\baritem{Python}{60}
+		\baritem{MySQL}{50}
+		\baritem{Git}{40}
+		\baritem{LaTeX}{20}
+	\end{barchart}
+\end{minipage}
+
+\begin{center}
+	\bubbles{4/git, 5/Office}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+
+\cvsect{Experience}
+
+\begin{entrylist}
+	\entry
+		{2020-2021}
+		{Unit-Testing and Software Development}
+		{Projects}
+		{A math test program that allow user to store data from a different user.\newline
+		\texttt{Python}\slashsep\texttt{git}}
+
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+\cvsect{Education}
+
+\begin{entrylist}
+	\entry
+		{2020--2023}
+		{Bachelor's Degree}
+		{Kristianstad University}
+		{The degree focus on developing the foundation knowledge in programming language and problem solving skill for the professional working environment}
+	\entry
+		{2017--2020}
+		{International Baccalaureate Diploma }
+		{Bladins International School}
+
+\end{entrylist}
+
+\cvsect{Finished Course}
+\begin{entrylist}
+    \entry{2020}{}{}
+    {- Fundamental Programming -Agile Development Programming -Object Oriented Programming -Methods for Sustainable Programming -Database Technique - Discrete Mathematics}
+    \entry{2021}{}{}
+    {- Data Communication -Operating Systems -Computer Security -Algorithms and Data Structures -Back End Development - Front End Development}
+\end{entrylist}
+
+
+
+%----------------------------------------------------------------------------------------
+%	ADDITIONAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.3\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+
+	\cvsect{Languages}
+	
+	\textbf{English} - native\\
+	\textbf{Vietnamese} - native\\
+	\textbf{Sweden} - rudimentary
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.6\textwidth}
+	\vspace{-\baselineskip} % Required for vertically aligning minipages
+	
+	\cvsect{Hobbies}
+	
+	Beside programming I like to stretch my creativity as well, I am in a small theater group in Lund as a set designer, I enjoy go to the gym and fighting game.
+	\end{minipage}
+
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
